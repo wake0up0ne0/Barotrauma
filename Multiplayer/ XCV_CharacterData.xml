@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CharacterData>
+  <CharacterCampaignData name="Jong Galt" address="STEAM_1:1:28298944" accountid="STEAM_1:1:28298944">
+    <Character name="Jong Galt" originalname="Jong Galt" speciesname="human" tags="head12,male" salary="3799" experiencepoints="0" additionaltalentpoints="0" hairindex="11" beardindex="16" moustacheindex="0" faceattachmentindex="12" skincolor="74,50,25,255" haircolor="161,88,55,255" facialhaircolor="73,78,85,255" startitemsgiven="false" ragdoll="" personality="joker" missionscompletedsincedeath="0" hull="1019">
+      <job name="Engineer" identifier="engineer">
+        <skill identifier="electrical" level="48.231865" />
+        <skill identifier="mechanical" level="29.617212" />
+        <skill identifier="weapons" level="20.629753" />
+        <skill identifier="medical" level="18.92391" />
+        <skill identifier="helm" level="6.0525513" />
+      </job>
+      <savedstatvalues />
+      <Talents version="1.2.8.0" />
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="2608" rect="1312,-126,16,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="1" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="identitycard,smallitem,name:Jong Galt,id_engineer,jobid:engineer" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.5" HiddenInGame="False" conditionpercentage="100" i="0">
+        <IdCard TeamID="Team1" OwnerTags="head12,male" OwnerName="Jong Galt" OwnerJobId="engineer" OwnerHairIndex="11" OwnerBeardIndex="16" OwnerMoustacheIndex="0" OwnerFaceAttachmentIndex="12" OwnerHairColor="161,88,55,255" OwnerFacialHairColor="73,78,85,255" OwnerSkinColor="74,50,25,255" OwnerSheetIndex="3,2" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="2610" rect="1308,-118,24,31" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,mobileradio" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+        <WifiComponent TeamID="Team1" Range="35000" Channel="0" AllowCrossTeamCommunication="False" LinkToChat="True" MinChatMessageInterval="0" DiscardDuplicateChatMessages="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" channelmemory="0,1,2,3,4,5,6,7,8,9" />
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="orangejumpsuit1" ID="2609" rect="1290,-118,60,32" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="clothing,radiationproof,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="toolbelt" ID="2611" rect="1292,-120,56,27" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,mobilecontainer,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="7">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained=",,,,," ExtraStackSize="0" />
+        <inventory />
+      </Item>
+      <Item name="" identifier="wrench" ID="2612" rect="1304,-129,32,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,simpletool,mountableweapon,wrenchitem,mechanicalrepairtool,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="8">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="screwdriver" ID="2613" rect="1304,-130,32,7" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,simpletool,electricalrepairtool,screwdriveritem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="9">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="fuelrod" ID="2614" rect="1316,-117,9,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,reactorfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="10">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="" ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <inventory />
+      </Item>
+    </inventory>
+    <health>
+      <LimbHealth i="0" />
+      <LimbHealth i="1" />
+      <LimbHealth i="2" />
+      <LimbHealth i="3" />
+      <LimbHealth i="4" />
+      <LimbHealth i="5" />
+    </health>
+    <orders />
+    <Wallet balance="0" rewarddistribution="0" />
+  </CharacterCampaignData>
+</CharacterData>
